@@ -1,10 +1,10 @@
-package me.whiteship.refactoring._03_long_function._01_before;
+package me.whiteship.refactoring._03_long_function.my.replace_temp_query;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public record Participant(String username, Map<Integer, Boolean> homework) {
-    public Participant(String username) {
+public record MyParticipant(String username, Map<Integer, Boolean> homework) {
+    public MyParticipant(String username) {
         this(username, new HashMap<>());
     }
 
