@@ -1,4 +1,4 @@
-package me.whiteship.refactoring._03_long_function.my.replace_temp_query;
+package me.whiteship.refactoring._03_long_function.my._01replace_temp_query;
 
 import java.util.HashMap;
 import java.util.Map;
